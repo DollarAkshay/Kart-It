@@ -1,0 +1,204 @@
+
+
+/* --- CSS Imports --- */
+@import url(https://fonts.googleapis.com/css?family=Lato:700,400);
+@import url(https://fonts.googleapis.com/css?family=Kanit:700,600,500,400);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500);
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%; 
+    height: 100%;
+    margin : 0px;
+    padding : 0px;
+    font-family:'Lato', sans-serif;
+    font-size: 16px;
+}
+
+body h1 {
+    font-size: 3em;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+body h2 {
+    font-size: 2.5em;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+body h3 {
+    font-size: 2em;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+body h4 {
+    font-size: 1.5em;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+/* --- Global Navbar --- */
+#mainNavbar {
+    color : #000000;
+    background-color: #ffee00;
+    border-radius: 0px;
+    margin: 0px;
+    border: none;
+    height: 50px;
+}
+
+#mainNavbar .container-fluid {
+    padding: 0px 15px 0px 15px;
+    height: 100%;
+}
+
+#mainNavbar #mainNavbarHeader {
+    color : #000000;
+    height: 30px;
+    display: inline;
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+#mainNavbar #mainNavbarHeader .icon-bar {
+    background-color : #000000;
+}
+
+#mainNavbar #mainNavbarHeader .navbar-brand {
+    height: 100%;
+    margin: 0px;
+    padding: 5px;
+    color : #000000;
+    font-size : 2em;
+    font-variant: small-caps;
+}
+
+#mainNavbar #mainNavbarContent li a{
+    vertical-align: central;
+    height: 80%;
+    margin: 10px;
+    padding: 5px;
+    color : #000000;
+    font-size : 1.5em;
+    font-variant: small-caps;
+}
+
+#homepage #mainContainer {
+    height: 100%;
+}
+
+#homepage #banner-img{
+    position: relative;
+    
+    max-height: 30%;
+    max-width: 60%;
+    height:auto;
+    width:auto;
+    margin-top : 4em;
+    
+    top: 0%;
+    left: 50%;
+    transform : translate(-50%, 0%);
+}
+
+#mainContainer{
+    height: 100%;
+}
+
+#mainContainer .row{
+    margin-top : 4em;
+    position: relative;
+    left: 10vw;
+}
+
+#mainContainer .row .col-md-6{
+    
+    width: 40vw;
+    height: 40vw;
+    border: 4px solid #ffcc00;
+    
+    padding: 1em;
+    
+    
+}
+
+#mainContainer .col-md-6 .kart-it-img{
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait Phone */
+@media screen and (max-width: 425px) {
+
+    /* --- Global --- */
+    body {
+        font-size: 12px;
+    }
+    
+    #question-page #answer-form #answer-field{
+         width: 80%;
+    }
+    
+    #question-page .question-img{
+        width: 100%;
+    }
+
+}
+
+
+/* Landscape Phone to Portrait Tablet */
+@media screen and (min-width: 426px) and (max-width: 767px) {
+
+    /* --- Global --- */
+    body {
+        font-size: 12px;
+    }
+}
+
+
+/* Landscape Tablet to Small Desktop*/
+@media screen and (min-width:768px) and (max-width: 991px) {
+
+    /* --- Global --- */
+    body {
+        font-size: 14px;
+    }
+
+}
+
+
+/* Small Desktop to Medium Desktop*/
+@media screen and (min-width:992px) and (max-width: 1199px) {
+
+    /* --- Global --- */
+    body {
+        font-size: 14px;
+    }
+
+}
