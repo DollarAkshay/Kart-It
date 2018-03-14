@@ -1,4 +1,4 @@
-# e:/Kart IT
+# Kart IT
 
 ## Setup Instructions
 
